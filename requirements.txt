@@ -1,0 +1,15 @@
+# ── LLM Provider (FREE) ───────────────────────────────────────────────────────
+groq>=0.9.0                # Groq API - FREE tier at https://console.groq.com
+
+# ── LLM Providers (paid - optional, only install if you switch providers) ─────
+# anthropic>=0.25.0        # Uncomment if using Claude
+# openai>=1.30.0           # Uncomment if using OpenAI GPT
+
+# ── Document parsing ──────────────────────────────────────────────────────────
+python-docx>=1.1.0         # Read & write .docx files
+PyMuPDF>=1.24.0            # Read .pdf files  (imported as "fitz")
+python-pptx>=0.6.23        # Read .pptx presentations
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+lxml>=5.2.0                # XML backend for python-docx
+Pillow>=10.3.0             # Image handling (for embedded diagrams)
