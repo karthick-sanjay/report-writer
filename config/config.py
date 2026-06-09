@@ -14,7 +14,7 @@ LLM_PROVIDER = "groq"
 
 # Groq (FREE)
 # Get your free key at https://console.groq.com -> API Keys
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
 # Best FREE Groq models for academic writing (pick one):
 #   "llama-3.3-70b-versatile"  <- best quality, recommended
